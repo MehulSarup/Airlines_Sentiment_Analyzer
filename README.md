@@ -13,4 +13,10 @@ I have used BeautifulSoup to scrape the data from the web. Then used the NLP lib
 # Conclusion
 After classifying the sentiment of the data using the NLTK VADER model, the text was visualized for insights through word clouds. From that, it was deduced that 50.4% were positive reviews in which customers had mentioned "easy, polite, and helpful" for the staff and crew of British Airways. They have described the airlines using words like "Great" and "Incredible". In 39.4% of Negative reviews, customers have complained about the economy, premium, and business classes, and the airline's website. They have mentioned words like bad, old, and unlucky, which shows that a few services could be improved to ensure customer satisfaction.
 
+![image](https://github.com/user-attachments/assets/b24df787-45ee-445c-b010-8e36d05fb779)
+
+
+![image](https://github.com/user-attachments/assets/a77a129b-6baf-4c74-b971-27e19ab54a52)
+
+
 To be able to identify if a review is positive or negative, a Logistic Regression model was developed, having an AUC-ROC score of 0.92. Further improvements to the model, like tuning the hyperparameters and having more data, would boost the accuracy of the model.
